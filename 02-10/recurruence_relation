@@ -1,0 +1,11 @@
+### Recurrence Relations
+
+## We have,
+T(0) = 0
+T(n) = 1 + T(n-2)
+
+## Then, 
+T(n) = 1 + (1 + T(n-4)) = 1 + (1 + (1 + T(n-6)))
+T(n) = k + T(n-2k) = n/2 + T(0) = n/2 + 0 = n/2
+
+## The constant C would change according to the knew constant k, but x_0 would not change, unless we change the value of T(0).
