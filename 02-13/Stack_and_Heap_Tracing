@@ -1,0 +1,11 @@
+1)
+Stack            Heap
+-----            ----
+c1  []  ---     Counter
+           |    value [1]
+           |
+           ---> Counter <--
+                value [0] |
+--doWork-------------------
+
+2) 2
