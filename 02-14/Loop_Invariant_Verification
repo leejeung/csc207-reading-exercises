@@ -1,0 +1,10 @@
+1. Entering the loop
+    When we are entering the loop, we have not made any comparison yet. So ret equals the first element of the passed array
+    ret = arr[0]
+2. At the end of iteration of the loop
+    After the comparison, if we found a value which is bigger than the current ret, we need to assigned the new value to the ret. 
+    In the example, This is done in opposite way, which is essentially finding the min. So the conditional statement in the loop
+    needs to be (arr[i] > ret)
+3. After execution
+    Satisfying two rules implies the assignment of the maximum value in the array to ret.
+    So ret has the maximum value of the array.
