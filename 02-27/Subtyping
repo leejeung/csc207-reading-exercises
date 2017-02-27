@@ -1,0 +1,5 @@
+For (A), it does not give an error because i, which is C, is a I and both I and C contain the method foo();
+For (B), it gives an complier error because I does not contain bar();
+Both lines of code will type check and also pass.
+
+This excercise shows that subtyping is not so precise, because, under certain circumstances, type check will fail to detect missing methods.
