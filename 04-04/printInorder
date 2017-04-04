@@ -1,0 +1,7 @@
+void printInorder() {
+  if (root != null) {
+    System.out.println(root.value);
+    root.left.printInorder;
+    root.right.printInorder;
+  }
+}
